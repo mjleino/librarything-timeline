@@ -1,0 +1,12 @@
+SOURCES FOR LIBRARIES
+=====================
+
+http://www.wbotelhos.com/raty/
+- jquery.raty.min.js
+- star-half.png
+- star-off.png
+- star-on.png
+
+http://timeline.verite.co/
+https://github.com/VeriteCo/Timeline/pull/23
+- timeline-patched.js
