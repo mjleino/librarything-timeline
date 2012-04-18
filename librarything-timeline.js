@@ -81,7 +81,7 @@ function timelineDate(librarythingTimestamp) {
 var api_root = "http://www.librarything.com/api_getdata.php?callback=?";
 var params = {
 	userid: 	"",
-	//key:    2413956462,
+	key:    2413956462,
 	showTags: 	1,
 	showDates: 	1,	// undocumented
 	limit: 		"bookswithstartorfinishdates",	// undocumented, see http://www.librarything.com/topic/40698
@@ -91,9 +91,14 @@ var params = {
 };
 
 $(function () {
-	$("#badabing").submit(function(event) {
+	/*$("#badabing").submit(function(event) {
 		event.preventDefault();
 		params.userid = $("#userid").val();
+		$.getJSON(api_root, params, jsonifyBooks);
+	});*/
+	$("#demo").click(function(event) {
+		event.preventDefault();
+		params.userid = "mjleino";
 		$.getJSON(api_root, params, jsonifyBooks);
 	});
 });
