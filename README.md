@@ -13,4 +13,4 @@ View your [LibraryThing](http://www.librarything.com) books on a beautiful timel
 
 ## Problems
 
-LibraryThing API restricts queries to API key owner's library only. Essentially making the API useless for general purpose. 
+LibraryThing API restricts queries to API key owner's library only. Essentially making the API useless for general purpose visualizations/anything. 
